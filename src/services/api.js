@@ -9,9 +9,9 @@
 
 // Detect default API Base URL:
 // 1. Explicit environment variable: VITE_API_BASE_URL (from .env or build pipeline)
-// 2. Production default: https://webappbackend.azurewebsites.net (Azure App Service)
+// 2. Production default: https://webappbackend-cchra4azbze9ddac.westus3-01.azurewebsites.net (Azure App Service)
 // 3. Development default: '' (uses Vite local proxy to http://127.0.0.1:8000)
-export const AZURE_PRODUCTION_BACKEND = 'https://webappbackend.azurewebsites.net';
+export const AZURE_PRODUCTION_BACKEND = 'https://webappbackend-cchra4azbze9ddac.westus3-01.azurewebsites.net';
 const ENV_API_BASE = (import.meta.env.VITE_API_BASE_URL || '').trim().replace(/\/+$/, '');
 export const DEFAULT_API_BASE = ENV_API_BASE || (import.meta.env.PROD ? AZURE_PRODUCTION_BACKEND : '');
 

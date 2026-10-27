@@ -34,7 +34,7 @@ A high-performance enterprise banking user interface built with **React 19**, **
    - **Advanced Workbench Mode**: Full triage badges, pipeline inspector drawer, and system diagnostics.
 
 8. **Dynamic Backend Configuration**:
-   - Live endpoint tester and instant switcher between Cloud Azure backend (`https://webappbackend.azurewebsites.net`) and local FastAPI server (`http://127.0.0.1:8000`).
+   - Live endpoint tester and instant switcher between Cloud Azure backend (`https://webappbackend-cchra4azbze9ddac.westus3-01.azurewebsites.net`) and local FastAPI server (`http://127.0.0.1:8000`).
 
 ---
 
@@ -42,7 +42,7 @@ A high-performance enterprise banking user interface built with **React 19**, **
 
 | Variable | Description | Default (Local Dev) | Default (Production) |
 | :--- | :--- | :--- | :--- |
-| `VITE_API_BASE_URL` | Backend FastAPI service endpoint | `""` (Uses Vite proxy to `8000`) | `https://webappbackend.azurewebsites.net` |
+| `VITE_API_BASE_URL` | Backend FastAPI service endpoint | `""` (Uses Vite proxy to `8000`) | `https://webappbackend-cchra4azbze9ddac.westus3-01.azurewebsites.net` |
 
 To override locally:
 ```bash
