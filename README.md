@@ -7,7 +7,7 @@ A high-performance enterprise banking user interface built with **React 19**, **
 ## 🌟 Key Features
 
 1. **Intelligent Domain Triage & Routing Visualization**:
-   - Displays real-time validation badges: `✅ Verified Banking.... (Confidence: 98%)` or `🚫 Non-Banking Query (Domain Refusal)`.
+   - Displays real-time validation badges: `✅ Verify Banking.... (Confidence: 98%)` or `🚫 Non-Banking Query (Domain Refusal)`.
    - Visualizes downstream routing: `⚡ Routed to: Account & Transaction Agent`, `🛡️ Cards & Security Agent`, or `💡 Advisory & Support Agent`.
 
 2. **Entity Parameter Extraction Rack**:
