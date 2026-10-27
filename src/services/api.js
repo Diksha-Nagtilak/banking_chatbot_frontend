@@ -43,7 +43,7 @@ export async function checkBackendHealth() {
     const res = await fetch(url, {
       method: 'GET',
       headers: { 'Accept': 'application/json' },
-      signal: AbortSignal.timeout(4000),
+      signal: AbortSignal.timeout(12000),
     });
 
     const elapsed = Math.round(performance.now() - startTime);
